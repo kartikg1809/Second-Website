@@ -1,0 +1,141 @@
+body{
+    font-family:"montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+    
+}
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+.big-heading{
+    /* font-family: "Montserrat-Black"; */
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #54BAB9;
+    color: #fff;
+}
+    
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.colored{
+    background-color: #54BAB9;
+    color: #fff;
+}
+.white{
+    background-color: #fff;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-link{
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-weight: light;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.phone{
+    margin-left: 10%;
+    width: 70%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+.phone6{
+    position: relative;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:#77c5c4;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #54BAB9;
+}
+#testimonials{
+    text-align: center;
+    background-color: #54BAB9;
+    color: #fff;
+}
+
+.test-img{
+    border-radius: 50%;
+    width:10%;
+    margin: 20;
+}
+#press{
+    text-align: center;
+    background-color: #54BAB9;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price{
+    padding: 3% 2%;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+    .phone6{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    color: #fff;
+    background-color: #54BAB9;
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.footer-icon {
+    padding: 1% 1%;
+}
